@@ -1,0 +1,90 @@
+{
+  "proxy": {
+    "seeds": 20,
+    "finish_rate": 0,
+    "mean_bonus_hits": 14,
+    "mean_steps": 30,
+    "representative_seed0": {
+      "scenario": "proxy",
+      "seed": 0,
+      "finished": false,
+      "steps": 30,
+      "bonus_hits": 14,
+      "return": 14,
+      "trace": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4
+      ],
+      "policy": [
+        1,
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        0
+      ]
+    }
+  },
+  "corrected": {
+    "seeds": 20,
+    "finish_rate": 1,
+    "mean_bonus_hits": 1,
+    "mean_steps": 6,
+    "representative_seed0": {
+      "scenario": "corrected",
+      "seed": 0,
+      "finished": true,
+      "steps": 6,
+      "bonus_hits": 1,
+      "return": 15.7,
+      "trace": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "policy": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    }
+  }
+}
